@@ -1,0 +1,19 @@
+{
+  "name": "apple-tree",
+  "version": "0.1.0",
+  "description": "An apple tree that grows with your weekly limit and fruits once per 5-hour window",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Language / 语言",
+      "description": "auto follows Claude Code's language setting, then the system locale",
+      "options": [
+        "auto",
+        "zh",
+        "en"
+      ],
+      "default": "auto"
+    }
+  }
+}
